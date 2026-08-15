@@ -109,3 +109,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.apresentacao img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

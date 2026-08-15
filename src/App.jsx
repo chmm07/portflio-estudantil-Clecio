@@ -2,26 +2,20 @@ import imagem from './assets/imagem de perfil.png';
 
 function Cabecalho() {
   return (
-    <header className="cabecalho">
-      <header>Início</header>
-    </header>
+    <h1 className="cabecalho">
+      <strong>Clécio Muniz</strong>
+    </h1>
   );
 }
 
 function Apresentacao() {
   return (
     <section className="apresentacao">
-      <h2>Sobre Mim</h2>
-
-        <img src={imagem} alt="Foto de perfil de Clécio Muniz" />
+      <img src={imagem} alt="Foto de perfil de Clécio Muniz" />
   
-      <article>
+      <article className="informacoes">
         <p>
-          <strong>Nome:</strong> Clécio Muniz
-        </p>
-
-        <p>
-          <strong>Idade:</strong> 18 anos
+          <strong>Data de nascimento:</strong> 09/09/2007
         </p>
 
         <p>
@@ -29,7 +23,15 @@ function Apresentacao() {
         </p>
 
         <p>
-          <strong>Período:</strong> 2026.1
+          <strong>Instituição:</strong> UFPE
+        </p>
+
+        <p>
+          <strong>Centro:</strong> Centro de Informática - CIn
+        </p>
+
+        <p>
+          <strong>ingresso:</strong> 2026.1
         </p>
       </article>
     </section>
@@ -39,25 +41,48 @@ function Apresentacao() {
 function Descricao() {
   return (
     <section className="descricao">
-      <h2>Descrição</h2>
-      <article>
-        Como estudante de Sistemas de Informação, tenho um forte interesse em tecnologia e desenvolvimento de software. Alem de possuir interesse nas areas de administracao, ciberseguranca e inteligencia artificial. Ao longo do curso tendo aproveitar das atividades disponibilizadas pelo CiN para desenvolver minhas competências e buscar aprender novas habilidades e aprimorar meus conhecimentos na área de TI.
-      </article>
+      <h2>Sobre Mim</h2>
+      <p>
+        Como estudante de Sistemas de Informação, tenho forte interesse em tecnologia e desenvolvimento de software. Também possuo interesse nas áreas de administração, cibersegurança e inteligência artificial. Ao longo do curso, procuro aproveitar as atividades disponibilizadas pelo CIn para desenvolver minhas competências, aprender novas habilidades e aprimorar meus conhecimentos na área de TI.
+      </p>
     </section>
   );
 }
-export { Cabecalho, Apresentacao, Descricao };
+
+function Contatos() {
+  return (
+    <section className="contatos">
+      <h2>Contatos</h2>
+      <ul>
+        <li>
+          <strong>Email:</strong> <a href="mailto:chmm@cin.ufpe.br">chmm@cin.ufpe.br</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/clécio-muniz-598655322">https://www.linkedin.com/in/clécio-muniz-598655322</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong> <a href="https://github.com/chmm07">https://github.com/chmm07</a>
+        </li>
+        <li>
+          <strong>Instagram:</strong> <a href="https://www.instagram.com/clecio_muniz/">https://www.instagram.com/clecio_muniz/</a>
+        </li>
+        <li>
+          <strong>Telefone:</strong> <a href="tel:+5581992694311">+55 (81) 99269-4311</a>
+        </li>
+      </ul>
+    </section>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header>
         <Cabecalho />  
-      </header>
-      <section>
+      <main>
         <Apresentacao />
         <Descricao />
-      </section>
+        <Contatos />
+      </main>
     </div>
   );
 }

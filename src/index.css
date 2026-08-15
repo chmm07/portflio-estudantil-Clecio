@@ -58,7 +58,6 @@ body {
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
@@ -68,6 +67,9 @@ body {
 
 h1,
 h2 {
+  text-transform: UPPERCASE;
+  text-decoration: underline;
+  text-align: center;
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
@@ -93,6 +95,7 @@ h2 {
 }
 p {
   margin: 0;
+  text-align: left;
 }
 
 code,
@@ -110,8 +113,29 @@ code {
   background: var(--code-bg);
 }
 
+.apresentacao {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
 .apresentacao img {
   width: 200px;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
+}
+
+.informacoes {
+  flex:1;
+  text-align: left;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--border);
+  text-decoration: underline;
+  font-size: 30px;
 }

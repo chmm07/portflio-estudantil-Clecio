@@ -176,3 +176,18 @@ header {
   color: var(--text-h);
   font-size: 20px;
 }
+
+.imagem-projeto {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.projeto {
+  display: flex;
+  flex: 1;
+  gap: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+}

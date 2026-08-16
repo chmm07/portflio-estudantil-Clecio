@@ -46,7 +46,9 @@ function Descricao() {
     <section className="descricao">
       <h2>Descrição</h2>
       <p>
-        Como estudante de Sistemas de Informação, tenho forte interesse em tecnologia e desenvolvimento de software. Também possuo interesse nas áreas de administração, cibersegurança e inteligência artificial. Ao longo do curso, procuro aproveitar as atividades disponibilizadas pelo CIn para desenvolver minhas competências, aprender novas habilidades e aprimorar meus conhecimentos na área de TI.
+        Sou estudante de Sistemas de Informação na Universidade Federal de Pernambuco (UFPE), vinculado ao Centro de Informática (CIn), e busco construir uma formação que integre conhecimentos técnicos, criatividade e compreensão das necessidades dos usuários. Tenho interesse nas áreas de desenvolvimento de software, cibersegurança, inteligência artificial e administração, procurando compreender tanto a construção das tecnologias quanto a maneira como elas podem solucionar problemas reais.
+
+Durante minha trajetória acadêmica, participei de projetos envolvendo programação em Python, desenvolvimento de jogos com Pygame, pesquisa em UI/UX e interação humano-computador. Também venho ampliando meus conhecimentos em segurança da informação por meio das formações da Fortinet e fui selecionado para atuar como monitor de Introdução à Programação. Meu objetivo é continuar desenvolvendo competências técnicas e profissionais, participar de novos projetos e transformar os conhecimentos adquiridos no curso em soluções úteis, acessíveis e bem estruturadas.
       </p>
     </section>
   );

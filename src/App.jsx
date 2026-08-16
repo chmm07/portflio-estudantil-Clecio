@@ -44,7 +44,7 @@ function Apresentacao() {
 function Descricao() {
   return (
     <section className="descricao">
-      <h2>Descrição</h2>
+      <h2>Sobre Mim</h2>
       <p>
         Sou estudante de Sistemas de Informação na Universidade Federal de Pernambuco (UFPE), vinculado ao Centro de Informática (CIn), e busco construir uma formação que integre conhecimentos técnicos, criatividade e compreensão das necessidades dos usuários. Tenho interesse nas áreas de desenvolvimento de software, cibersegurança, inteligência artificial e administração, procurando compreender tanto a construção das tecnologias quanto a maneira como elas podem solucionar problemas reais.
 

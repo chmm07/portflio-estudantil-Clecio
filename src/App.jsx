@@ -2,9 +2,12 @@ import imagem from './assets/imagem de perfil.png';
 
 function Cabecalho() {
   return (
-    <h1 className="cabecalho">
-      <strong>Clécio Muniz</strong>
-    </h1>
+    <header className="cabecalho">
+      <h1><strong>Clécio Muniz</strong></h1>
+      <nav className="navegacao">
+        <a className="linknav" href="portfolio/">Portfólio</a>
+      </nav>
+    </header>
   );
 }
 
@@ -23,7 +26,7 @@ function Apresentacao() {
         </p>
 
         <p>
-          <strong>Instituição:</strong> UFPE
+          <strong>Instituição:</strong> Universidade Federal de Pernambuco — UFPE
         </p>
 
         <p>
@@ -31,7 +34,7 @@ function Apresentacao() {
         </p>
 
         <p>
-          <strong>ingresso:</strong> 2026.1
+          <strong>Ingresso:</strong> 2026.1
         </p>
       </article>
     </section>
@@ -41,7 +44,7 @@ function Apresentacao() {
 function Descricao() {
   return (
     <section className="descricao">
-      <h2>Sobre Mim</h2>
+      <h2>Descrição</h2>
       <p>
         Como estudante de Sistemas de Informação, tenho forte interesse em tecnologia e desenvolvimento de software. Também possuo interesse nas áreas de administração, cibersegurança e inteligência artificial. Ao longo do curso, procuro aproveitar as atividades disponibilizadas pelo CIn para desenvolver minhas competências, aprender novas habilidades e aprimorar meus conhecimentos na área de TI.
       </p>
@@ -55,19 +58,16 @@ function Contatos() {
       <h2>Contatos</h2>
       <ul>
         <li>
-          <strong>Email:</strong> <a href="mailto:chmm@cin.ufpe.br">chmm@cin.ufpe.br</a>
+          <strong>E-mail:</strong> <a href="mailto:chmm@cin.ufpe.br">chmm@cin.ufpe.br</a>
         </li>
         <li>
-          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/clécio-muniz-598655322">https://www.linkedin.com/in/clécio-muniz-598655322</a>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/clécio-muniz-598655322">Meu linkedin</a>
         </li>
         <li>
-          <strong>GitHub:</strong> <a href="https://github.com/chmm07">https://github.com/chmm07</a>
+          <strong>GitHub:</strong> <a href="https://github.com/chmm07">github.com/chmm07</a>
         </li>
         <li>
-          <strong>Instagram:</strong> <a href="https://www.instagram.com/clecio_muniz/">https://www.instagram.com/clecio_muniz/</a>
-        </li>
-        <li>
-          <strong>Telefone:</strong> <a href="tel:+5581992694311">+55 (81) 99269-4311</a>
+          <strong>Instagram:</strong> <a href="https://www.instagram.com/clecio_muniz/">@clecio_muniz</a>
         </li>
       </ul>
     </section>

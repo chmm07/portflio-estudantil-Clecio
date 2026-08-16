@@ -74,6 +74,7 @@ h2 {
 }
 
 h1 {
+  padding: 0 16px;
   font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
@@ -91,7 +92,6 @@ h1 {
 }
 
 h2 {
-  text-align: left ;
   font-size: 24px;
   line-height: 118%;
   letter-spacing: -0.24px;
@@ -109,7 +109,8 @@ h2 {
 }
 p {
   margin: 0;
-  text-align: left;
+  padding: 0 10px;
+  text-align: justify;
 }
 
 code,
@@ -134,6 +135,9 @@ header {
   border-bottom: 1px solid var(--border);
 }
 
+.subtitulo {
+  padding: 4px 16px;
+}
 .navegacao { 
   display: flex;
   gap: 16px;
@@ -142,6 +146,7 @@ header {
 .apresentacao {
   display: flex;
   align-items: space-evenly;
+  padding: 0 32px;
   gap: 32px;
   margin-bottom: 32px;
   margin-top: 32px;
@@ -155,7 +160,7 @@ header {
 
 .informacoes {
   flex:1;
-  text-align: left;
+  text-align: left
 }
 .cabecalho {
   display: flex;
@@ -174,20 +179,72 @@ header {
   padding: 8px 16px;
   text-decoration: none;
   color: var(--text-h);
-  font-size: 20px;
+  font-size: 20px
 }
 
 .imagem-projeto {
   width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin-bottom: 16px;
+  max-width: 1000px
 }
 
 .projeto {
+  background-color: #1f2028;
+  border: 4px;
+  border-radius: 8px;
+  padding: 1%;
   display: flex;
   flex: 1;
   gap: 16px;
-  margin-bottom: 10px;
+  margin: 10px;
   text-align: left;
+}
+
+.projeto-descricao {
+  text-align: justify
+}
+
+.competencias {
+  background-color: #303450;
+  border: 4px;
+  border-radius: 8px;
+  padding: 1%;
+  gap: 16px;
+  margin-top: 16px
+}
+
+.nomeprojeto {
+  background: linear-gradient(
+    90deg,
+    rgba(54, 37, 89, 1) 50%,
+    rgb(31, 32, 40) 100%
+  );
+  border-radius: 8px;
+  padding: 1px 8px;
+  margin-bottom: 8px;
+}
+
+
+.experiencias {
+  text-align: justify;
+  display: flex; 
+  flex: 1;
+  gap: 20px;
+  padding: 0 64px;
+}
+
+.experiencia {
+  border-radius: 16px;
+  background-color:#1f2028;
+  gap: 16px;
+  margin-bottom: auto;
+}
+
+.imagem-experiencia {
+  width: 80%;
+  max-width: 150px;
+  padding: 0 84px
+}
+
+.nomeexperiencia {
+  text-align: center
 }

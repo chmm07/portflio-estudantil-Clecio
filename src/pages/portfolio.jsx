@@ -112,7 +112,7 @@ function Experiencias() {
 
 function Portfolio() {
   return (
-    <div>
+    <div className="pagina-portfolio">
       <Cabecalho />
         <main>
             <Titulo />
